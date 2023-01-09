@@ -1,3 +1,4 @@
+
 Vagrant.configure("2") do |config|
   
   nodes = [
@@ -37,3 +38,5 @@ Vagrant.configure("2") do |config|
     puppet.manifest_file = "default.pp"
     puppet.module_path = "puppet/modules"
   end
+
+end
